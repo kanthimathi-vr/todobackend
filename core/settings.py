@@ -56,9 +56,9 @@ MIDDLEWARE = [
 
 # Configure CORS
 CORS_ALLOWED_ORIGINS = [
-    " https://todofrontend-two-rosy.vercel.app/",
+    "https://todofrontend-2wf2.vercel.app/",
 ]
-
+CORS_ALLOW_ALL_ORIGINS = True
 ROOT_URLCONF = 'core.urls'
 
 TEMPLATES = [
